@@ -1,0 +1,528 @@
+homepage.css
+
+body, html, footer {
+    overflow-x: hidden;
+    margin: 0;      /* Removes default margin */
+    padding: 0;     /* Removes default padding */
+    border: 0;      /* Removes any border */
+    box-sizing: none; /* Includes padding and border in element's total width and height */
+  }
+
+  
+ /*-----------------------NAVBAR-------------------*/
+.navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 0.5em;
+  }
+
+.navbar ul li a:hover {
+    background-color: #6F4170;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.active{
+    color:White !important;
+}
+
+.search-button {
+    background-color: #6F4170;
+    border-color: #6F4170;
+}
+
+.search-button:hover {
+    background-color: #ebb3ec;
+    border-color: #ebb3ec;
+}
+
+/*---------- Main Content------------*/
+
+/* Font for Text Under World Map */
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Font for Main Heading */
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Underline for Main Heading */
+.lower-border {
+    border-bottom: solid;
+    border-color: #AF92B0;
+}
+
+/* Flag Border CSS */
+.fib {
+    background-size: auto;
+    background-position: 100%;
+    background-repeat: no-repeat; 
+}
+
+/* Flag Border on Right Side */
+
+.flag-ee{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-er{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-fr{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-ec{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-sz{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-et{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-pf{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-ga{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-gh{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-gl{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-gd{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-gu{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+/* Flag Border on Left Side */
+
+.flag-me{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-nl{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-ne{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-ng{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-ni{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-nf{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-pw{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-ws{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-ua{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-gb{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-kr{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+.flag-jp{
+    border: solid;
+    border-color: #AF92B0;
+    width: 65.5px;
+}
+
+/*---------- Comment Section ------------*/
+
+.comment-section {
+    margin-top: 20px;
+}
+
+#commentsSection {
+    overflow: visible; /* Ensure content is not clipped */
+    height: auto; /* Allow height to adjust based on content */
+    display: block; /* Ensures block-level behavior */
+}
+
+#thankYouMessage {
+    margin-top: 10px; 
+}
+
+/* Apply red border for invalid form fields */
+.is-invalid .form-control {
+    border-color: #dc3545; /* Bootstrap's red for invalid state */
+    box-shadow: 0 0 0 .2rem rgba(220, 53, 69, 0.25); /* Adds shadow for better visibility */
+}
+
+/* Styles the .form-floating label when the input is invalid */
+.is-invalid .form-floating-label {
+    color: #dc3545; /* Red color for the label text */
+}
+
+/* Hides invalid-feedback by default */
+.invalid-feedback {
+    display: none; /* Hide error messages initially */
+}
+
+/* Show invalid-feedback when the input is invalid */
+.is-invalid .invalid-feedback {
+    display: block; /* Show error messages when the input is invalid */
+}
+
+/* Form Styles */
+
+.form-row {
+    display: flex;
+    gap: 10px; /* Space between the input fields */
+}
+
+.form-floating {
+    flex: 1; /* Allow the inputs to grow and fill available space */
+    min-width: 0; /* Prevent the columns from growing too large */
+}
+
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+}
+
+.form-control:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
+
+/* Sorting Options */
+.sort-options {
+    text-align: right;
+}
+
+.sort-options select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Capitalize the first letter of each word in the input fields */
+input.capitalize {
+    text-transform: capitalize;
+}
+
+/* Total Comments Heading*/
+h3 {
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0; /* Removes any default margin */
+}
+
+.comments-header {
+    margin-bottom: 20px; /* Adds space between header and comments */
+}
+
+.comments-header .row {
+    display: flex;
+    flex-wrap: nowrap; /* Allows elements to wrap on small screens */
+    align-items: center; /* Vertically aligns items in the center */
+}
+
+/* Comment Styles */
+.comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #fafafa;
+    position: relative;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.comment-meta {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.comment-meta strong {
+    color: #2980b9;
+    font-weight: 600;
+}
+
+.comment p {
+    margin: 0;
+    color: #444;
+    line-height: 1.5;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+/* Ensuring the button is visible */
+#showMoreBtn {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #AF92B0; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#showMoreBtn:hover {
+    background-color: #6F4170;
+}
+
+#showMoreBtn:disabled {
+    background-color: #6c757d; /* Gray color for disabled state */
+    cursor: not-allowed;
+}
+
+
+/* Style for the delete button */
+.delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    min-width: 75px; /* Ensures button doesn't collapse */
+    margin-top: 5px; /* Adds some spacing on small screens */
+    background-color: transparent;
+    border: none;
+    color: #e74c3c;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.delete-button:hover {
+    color: #c0392b;
+}
+
+/* CSS for aligning elements in small screens */
+@media (max-width: 768px) {
+
+    .form-row {
+        flex-direction: column; /* Stack inputs vertically on small screens */
+    }
+
+    .form-floating {
+        margin-bottom: 10px;
+    }
+
+    .previous-comments .row {
+        display: flex;
+        flex-wrap: nowrap; /* Prevent wrapping */
+        align-items: center; /* Align items vertically center */
+        justify-content: space-between; /* Space items across the container */
+    }
+
+    .previous-comments .sort-options {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; /* Align sorting options to the right */
+    }
+
+    .previous-comments label {
+        margin-right: 8px; /* Add some space between the label and select */
+    }
+
+    /* Adjust spacing to prevent overflow */
+    .previous-comments h3 {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .previous-comments select {
+        max-width: 100%;
+    }
+
+    .comment-top {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .sort-by {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .sort-options {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .total-comments {
+        padding-left: 0;
+    }
+
+    .total-comments h3 {
+        font-size: 18px
+    }
+
+    .main-content {
+        padding: 1px;
+    }
+
+    .col .img-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/* Container to center the submit button */
+.button-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the button */
+}
+
+/* Elements to animate */
+
+.checkIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 0.4s ease-in-out; /* Smooth fade-in effect */
+}
+
+
+/* Submit Button */
+.submit-btn {
+    background: #AF92B0;
+    color: white;
+    height: 60px;
+    width: 150px;
+    border: none;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px; /* Make sure text is readable */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.submit-btn:hover {
+    background-color: #6F4170;
+}
+
+.submit-btn .button-text {
+    transition: opacity 0.4s ease;
+}
+
+.animatedButton {
+    position: relative;
+    transition: all 0.4s ease-in-out; /* Smooth transition for scaling */
+    border-radius: 8px; /* Default border-radius for button */
+}
+
+.animatedButton.shrink {
+    border-radius: 50%; /* Make button circular */
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    overflow: hidden; /* Hide overflow to keep it circular */
+}
+
+.checkIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 0.4s ease-in-out; /* Smooth fade-in effect */
+}
+
+
+
+
+
+

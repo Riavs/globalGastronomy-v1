@@ -1,0 +1,249 @@
+body {
+  overflow-x: hidden;
+}
+
+/*----------------description img- Responsiveness--------------*/
+
+@media only screen and (max-width: 767px) {
+  h1.display-5 {
+      font-size: 10vw; /* Adjust as needed */
+  }
+  h1.display-6 {
+      font-size: 6vw; /* Adjust as needed */
+  }
+  p.lead {
+      font-size: 4vw; /* Adjust as needed */
+  }
+
+  .bg-img {
+    background-image: url('images/flag.jpg') !important;
+  }
+}
+
+.bg-img {
+  background-image: url('images/flag2.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    backdrop-filter: blur(10px);
+}
+
+/*-------------fonts-----------------*/
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white !important;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white !important;
+}
+  
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  color: white !important;
+}
+  
+
+/*-----------------------NAVBAR-------------------*/
+.navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 0.5em;
+  }
+
+.navbar ul li a:hover {
+    background-color: #6F4170;
+}
+.nav-link {
+    color: black !important;
+}
+
+.active{
+    color:White !important;
+}
+/*---------- Recipe Area ------------*/
+
+.recipe-duration h6, .recipe-ratings h6{
+  font-size: 20px;
+  margin-bottom: 5px; 
+}
+
+.recipe-duration h6:last-child {
+  margin-bottom: 0; 
+}
+
+.recipe-ratings .ratings {
+  margin-bottom: 10px; 
+}
+
+
+.single-preparation-step {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 5px; 
+}
+
+.single-preparation-step h4 {
+  color: #000000;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 60px;
+  max-width: 60px;
+  margin-bottom: 0; 
+}
+
+.single-preparation-step p {
+  color: #000000;
+}
+
+.ingredients h3 {
+  margin-bottom: 30px; 
+}
+
+.directions, .directions h3 {
+  margin-bottom: 30px; 
+}
+
+.ingredients .custom-checkbox .custom-control-label::before {
+  border-radius: 0; 
+}
+
+.ingredients .custom-control-label::before {
+  width: 30px;
+  height: 30px;
+  background-color: #f3f5f8; 
+}
+
+.ingredients .custom-control {
+  padding-left: 2.5rem;
+  margin-bottom: 10px;
+  min-height: 35px; 
+}
+
+.ingredients .custom-control-label {
+  margin-bottom: 0;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2f2f; 
+}
+
+.ingredients .custom-control-label::after {
+  top: 10px;
+  left: 5px;
+  width: 20px;
+  height: 20px; 
+}
+
+/*------------------------------- Recipe Responsiveness------------------------*/
+@media (max-width: 767px) {
+  .recipe-duration h6, .recipe-ratings h6 {
+    font-size: 4vw; /* Adjust as needed */ 
+  }
+}
+
+@media (max-width: 767px) {
+  .first-column {
+    max-height: 120px;
+  }
+  .second-column {
+    align-self: flex-start;
+  }
+
+  .ingredients .custom-control {
+    padding-left: 0;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .single-preparation-step h4 {
+    color: #000000;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 0px;
+    flex: 0 0 60px;
+    max-width: 30px;
+    width: 0px;
+    margin-bottom: 0; 
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .directions h3{
+    margin-bottom: 30px;
+  } 
+  .directions h4 {
+   font-size: 5vw;
+  } 
+  .directions p {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .ingredients .custom-control-label {
+    font-size: 3vw; /* Adjust as needed */
+  }
+}
+
+/*---------------buttons------------*/
+.btn-primary {
+  background-color: #AF92B0;
+  border:#AF92B0;
+}
+
+.btn-primary:hover{
+  background-color: #6F4170;
+}
+
+.btn-outline-secondary:hover{
+  background-color: #6F4170;
+}
+
+.button-link{
+  text-decoration:none;
+  color: white;
+}
+
+.search-button {
+  background-color: #6F4170;
+  border-color: #6F4170;
+}
+
+.search-button:hover {
+  background-color: #ebb3ec;
+  border-color: #ebb3ec;
+}
+
+/*---------------Carousel-------------*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 1);
+    background-size: 50%, 50%;
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

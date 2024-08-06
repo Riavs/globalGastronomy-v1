@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/whhg.css">
+    <!------for the heart icon-------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!----------for any google font-------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!----------for playfair font------->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <!----------for dm sans font------->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: rgb(175, 146, 176, 0.5);">
+  <!------------------------------NAVBAR---------------------->
+  <nav class="navbar sticky-top navbar-expand-sm" style="background-color:#AF92B0;">
+
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img  class="d-inline-block align-center rounded-pill" src="G4.png" alt="G4 Logo" style="width: 40px; height: 40px;"> 
+         Group 4</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <!------------Place the active class after nav-link by your respective county 
+            e.g. <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            Don't forget about the footer too------>
+                <li class="nav-item"><a class="nav-link" href="\index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/erin-spain/spain.html">Spain</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Japan</a></li>
+                <li class="nav-item"><a class="nav-link" href="/olivia-germany/germany.html">Germany</a></li>
+            </ul>
+
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-light search-button" type="submit" >Search</button>
+            </form>
+
+        </div>
+
+    </div>
+</nav>
+
+  <!------- Main body ------->
+  <main>
+
+    <div class="container background-image">
+      <!------- National Dish ------->
+      <div class="row">
+        <div class="col align-self-start">
+          <!------- Header and subtitle ------->
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 playfair-display">JAPAN</h1>
+          <h2 class="display-6 fw-bold text-body-emphasis lh-1 mb-3 playfair-display">National Dish - Curry with Rice</h2>
+          <!------- About the dish ------->  
+          <p class="lead dm-sans">Japan's national dish, curry with rice (kare raisu, カレーライス), is a delightful fusion of flavors that showcases the country's unique take on a beloved international dish. Brought to Japan from India by the British during the Meiji era, Japanese curry has since evolved into a distinct and integral part of the nation's cuisine. Unlike its spicier Indian counterpart, Japanese curry is typically milder and thicker, characterised by a rich, savory gravy made from a roux of flour, fat, and curry spices. It is commonly served with chunks of tender meat, potatoes, carrots, and onions over a bed of fluffy white rice, creating a hearty and comforting meal.</p>
+        </div>
+        <!------- Image of dish ------->
+        <div class="col d-flex flex-wrap align-items-center">
+            <img src="CurryMain.jpg" class="rounded" width="700px" alt="Curry with Rice";>
+        </div>
+      </div>
+      
+      <!------- Recipe ------->
+      <div class="row">
+        <p>
+        <div class="col align-self-start">
+          <!------- View recipe button ------->
+          <button class="btn btn-primary btn-lg" type="button" style="margin-right:10px"; data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">View Recipe</button>
+          <!------- Recipe video button ------->
+          <a href="https://www.youtube.com/watch?v=UuOI5uT00T4" target="_blank">
+                      <button class="btn btn-dark btn-lg" type="button">Recipe Video</button>  
+          </a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <!------- Collapsable card ------->
+            <div class="collapse multi-collapse" id="multiCollapse1">
+              <div class="card card-body recipeCard">
+                <div>
+                  <!------- Dish heading and cooking times/servings ------->
+                  <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3 playfair-display">Japanese Chicken Curry</h3>
+                  <p>Prep Time: 15 minutes</p>
+                  <p>Cook Time: 45 minutes</p>
+                  <p>Servings: 4</p>
+                  <!------- Ingredients heading and checkable ingredients list ------->
+                  <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3 playfair-display">Ingredients</h3>
+                </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      450 g chicken thighs boneless and skinless
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      1 large onion
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      1 large onion peeled and finely chopped
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      230 g carrots cut rangiri style
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      340 g waxy potatoes cut into bite size chunks
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      6 tbsp butter
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      2 cloves garlic crushed
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      0.5 inch piece of fresh ginger grated
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      950 ml chicken stock
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      3 tbsp Japanese curry powder 
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      1 tsp garam masala
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      4 tbsp flour
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      2 tsp salt
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      1 tbsp tonkotsu sauce
+                    </label>
+                  </div>
+                  <!------- Nutrition heading and text ------->
+                  <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3 playfair-display">Nutrition</h3>
+            <p>Calories: 418.35kcal | Carbohydrates: 35.44g | Protein: 22.14g | Fat: 22.35g | Saturated Fat: 12.11g | Cholesterol: 109.79mg | Sodium: 1536.84mg | Potassium: 1074.06mg | Fiber: 5.62g | Sugar: 6.68g | Calcium: 80.67mg | Iron: 3.59mg</p>
+                  <div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapse2">
+              <div class="card card-body recipeCard">
+                <!------- Instructions heading and text ------->
+                <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3 playfair-display">Instructions</h3>
+            <p>1. Prep your vegetables. Slice the onion into 1/8 inch slices. Cut the onion in half from the stem to the root. Peel. Cut the stem end off. Now cut slices moving towards the stem end. You are cutting onion half moons.</p>
+            <p>2. Cut up the carrots, potatoes and chicken. You want bite size pieces.</p>
+            <p>3. Heat a pot large enough to hold all the ingredients over medium low heat. Add 2 tablespoons of butter. Let melt and then add the onions and the salt. Cook the onions for about 5 minutes stirring occasionally. You are going for soft and translucent. You don't want to let the onions brown.</p>
+            <p>4. Add the carrots, garlic and ginger (or 1 tbsp of garlic ginger paste if you stock it) and cook another 2 minutes.</p>
+            <p>5. Add the stock. Stir and bring to a simmer. Cook 10 minutes.</p>
+            <p>6. Add the potatoes. Cook another 15 minutes. Check the potatoes. They should be close to done. Depends on how big the pieces were. If they aren't starting to soften cook them until they do.</p>
+            <p>7. Add the chicken. Cook 10 minutes.</p>
+            <p>8. While the chicken cooks make the curry roux.</p>
+            <p>9. Heat the remaining 4 tablespoons of butter in a small sauce pan over medium low heat. Add the curry powder and garam masala and cook for about 30-45 seconds. Add the flour and stir to combine. You want all the flour coated with fat. If it's really dry add a bit of vegetable oil.</p>
+            <p>10. Cook the flour/spice mixture over medium low heat for about 2 minutes. This is your roux.</p>
+            <p>11. Now add a couple tablespoons of broth from the simmering curry. Stir to combine. It will make an ungodly looking mess. Goop. Don't worry. Add another couple tablespoons of broth and stir. Repeat that a couple more times.</p>
+            <p>12. Now add around 1/2 cup of broth and stir to combine. Add another 1/2 cup or so and stir. You sould be getting to the point where you have a really thick but smooth paste.</p>
+            <p>13. 10-12 minutes have gone by. Check the chicken. It should be done or at least close. Depends on how lively your simmer is though. Use an instant read thermometer. Safety first. You want it read around 68-71C at this point. The thighs are cooked at 76C but you can go a little higher. That's the nice thing about dark meat. It is forgiving.</p>
+            <p>14. Add the curry paste to the curry. Stir to combine. Bring to a simmer. The chicken should be done. Check it. If it's not cook it for another few minutes.</p>
+            <p>15. Taste. At this point the flavour profile will be similar to the cubes. Adjust salt. Now add one tablespoon of tonkotsu sauce. Taste again. This will add a hint of sweetness as well as that secret Japanese curry flavour. If you like it stop now. If you want more fruit and sugar add another tablespoon. I like it between one and two tablespoons. If you want big fruit taste add another tablespoon.</p>
+              </div>    
+            </div>
+          </div>  
+        </div>
+
+        </div>
+
+        <!------- Popular Dishes Heading ------->
+        <div class="row popularDishes">
+          <div class="col text-center">
+            <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 playfair-display">Other Popular Dishes</h2>
+          </div>
+        </div>
+        
+        <!------- Image Carousel ------->
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <!------- Images go here ------->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="RamenCarousel.png" class="d-block w-100" alt="Ramen">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="playfair-display">Ramen &#127836;</h2>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="Sushi_Carousel.png" class="d-block w-100" alt="Sushi">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="playfair-display">Sushi &#127843;</h2>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="TempuraCarousel.png" class="d-block w-100" alt="Tempura">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="playfair-display">Tempura &#127844;</h2>
+                  </div>
+                </div>
+              </div>
+              <!------- Previous and next buttons ------->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            </div>
+        </div>
+  </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+<!---------------------------------FOOTER-------------------->
+<footer>
+  <nav class="navbar bottom navbar-expand-sm" style="background-color:#AF92B0;">
+      <div class="container-fluid">
+          <div class="navbar-text text-nowrap"> &copy; Made with <i class="fas fa-heart"></i> by Group 4</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#open">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="open">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <!------------Place the active class after nav-link by your respective county 
+              e.g. <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+              Don't forget about the footer too------>
+              <li class="nav-item"><a class="nav-link" href="\index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="/erin-spain/spain.html">Spain</a></li>
+              <li class="nav-item"><a class="nav-link active" href="#">Japan</a></li>
+              <li class="nav-item"><a class="nav-link" href="/olivia-germany/germany.html">Germany</a></li>
+          </ul>
+      
+              <form class="d-flex invisible">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-primary" type="submit" >Search</button>
+              </form>
+      
+          </div>
+      
+      </div>
+  </nav>
+</footer>
+</html>
